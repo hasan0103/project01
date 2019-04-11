@@ -1,0 +1,109 @@
+@media screen and (min-width:320px) {
+	.brand-name {
+		font-size: 25px;
+		padding-top:5px; 
+		text-shadow: 5px solid #000 ;
+	}
+	.color-brand {
+		color:#e91e63;
+	}
+	.nav-outer {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.navigation {
+		display:none;
+		width:100%;
+		height: 325px;
+		position: absolute;
+		top:75px;
+		left:0px;
+		background: rgba(0,0,0,1);
+		text-align: center;
+	}
+	.nav-group {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: list-item;
+		text-align: center;
+	}
+	.nav-item {
+		color: #fff;
+
+	}
+	.menu-toggle {
+		display: block;
+		padding-top: 23px;
+	}
+	.menu-close {
+		display: none;
+		padding-top: 23px; 
+	}
+	.welcome {
+		font-size: 21px;
+	}
+	.sub-welcome {
+		font-size: 18px;
+	}
+	.content-banner-right {
+		margin-top: 100px;
+	}
+	.post-title {
+		font-size: 25px;
+	}
+	.post-content {
+		display: none;
+	}
+	.about-section {
+		margin-bottom: 300px;
+	}
+	.inner-grid-dwns-min {
+		margin-left: 65px;
+	}
+	.inner-grid-dwns-min1 {
+		display: none;
+	}
+	.inner-grid-dwns-min2 {
+		display: none;
+	}
+	.social-section {
+		height: 280px;
+	}
+	.social-title {
+		font-size: 35px;
+		padding-top: 35px;
+		padding-bottom: 0px;
+	}
+	.facebook-icon {
+		font-size: 60px;
+	}
+	.twitter-icon {
+		font-size: 60px;
+	}
+	.f3p-title {
+		font-size: 25px;
+	}
+	.first-3post-title01, .first-3post-title02, .first-3post-title03 {
+		font-size: 17px;
+	}
+	.update-Ti-title {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 22px;
+	}
+	.footer-container {
+		height: 100px;
+		text-align: center;
+	}
+	.content-footer-left {
+		float: none;
+		padding-right: 0px;
+		padding-top: 20px;
+	}
+	.content-footer-right {
+		float: none;
+		padding-right: 0px;
+		padding-top: 20px;
+	}
+}

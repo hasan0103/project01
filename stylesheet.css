@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+* {
+	margin: 0;
+	padding:0;
+	font-family: 'Archivo', sans-serif;
+}
+
+.container {
+	width:100%;
+	height:75px;
+	border: 0px;
+	position: relative;
+	animation-name: container;
+	-moz-animation-name:container;
+	-webkit-animation-name:container;
+	animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	-webkit-animation-duration: 4s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes container {
+    0% {width: -100%; opacity:0;}
+    50% {width:-50%; opacity:0.5;}
+    100% {width: 100%; opacity:1;}
+}
+
+@-webkit-keyframes container {
+    0% {width: -100%; opacity:0;}
+    50% {width:-50%; opacity:0.5;}
+    100% {width: 100%; opacity:1;}
+}
+
+.brand-name {
+	text-shadow: 0 0 2px #888888;
+	line-height: 65px;
+	padding-left:10px;
+	letter-spacing: 1px;
+	text-align: left;
+	float: left;
+}
+
+.color-brand {
+	color:#e91e63;
+}
+
+.navigation {
+	float: right;
+}
+
+.nav-outer {
+	padding-top:15px;
+}
+
+.nav-group {
+	list-style-type: none;
+	padding:14px 16px;
+	display: inline-block;
+}
+
+.nav-item {
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.nav-item:hover {
+	color:#ec407a;
+	font-size: 1.1em;
+}
+
+.active {
+	color:#e91e63;
+}
+
+.menu-toggle {
+	padding:10px;
+	padding-top:18px;
+	font-size: 30px;
+	float: right;
+	display:none;
+}
+
+.menu-close {
+	padding:10px;
+	padding-top:18px;
+	font-size: 30px;
+	float: right;
+	display:none;	
+}
+
+.container-banner {
+	width:100%;
+	height: 400px;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876);  
+	/*position: relative;
+	animation-name: containermain;
+	-moz-animation-name:containermain;
+	-webkit-animation-name:containermain;
+	animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;*/
+}
+
+@keyframes containermain {
+	0% {height:0px; opacity: 0;}
+	50% {height:200px; opacity: 0.5;}
+	100% {height: 400px; opacity: 1;}
+}
+
+@-webkit-keyframes containermain {
+	0% {height:0px; opacity: 0;}
+	50% {height:200px; opacity: 0.5;}
+	100% {height: 400px; opacity: 1;}
+}
+
+.content-banner-left {
+	width:50%;
+	float: left;
+	color:#fff;
+	padding-top: 30px;
+}
+
+.welcome {
+	font-size: 40px;
+	letter-spacing: 2px;
+	padding:15px;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+.sub-welcome {
+	padding: 5px;
+	padding-left:15px;
+	word-spacing: 2px;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+.content-banner-right {
+	width:50%;
+	float: right;
+	color:#fff;
+	padding-top:20px;
+}
+
+.blog-title {
+	padding:10px;
+	padding-left: 5px;
+	letter-spacing: 2px;
+}
+
+.post-title {
+	padding:10px;
+	padding-left: 5px;
+	word-spacing: 2px;
+	font-size: 30px;
+}
+
+.post-content {
+	padding:5px;
+	padding-left: 10px;
+	display: block;
+}
+
+.post-view-btn {
+	width:100px;
+	height: 50px;
+	background-color: #37474f;
+	border:none;
+	border-radius:20px;
+	margin-top: 15px;
+	font-size: 15px;
+	color: #fff;
+}
+
+.post-view-btn:hover {
+	background-color: #e91e63;
+	box-shadow: 2px #000;
+}
+
+.container-banner-skew {
+	width:100%;
+	height:100px;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876); 
+    transform: skew(0deg , 5deg);
+    overflow: hidden;
+    margin-top: -50px;
+    position: relative;
+	animation-name: containerskew;
+	-moz-animation-name:containerskew;
+	-webkit-animation-name:containerskew;
+	animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes containerskew {
+	0% { opacity: 0;}
+	50% { opacity: 0.5;}
+	100% { opacity: 1;}
+}
+
+@-webkit-keyframes containerskew {
+	0% { opacity: 0;}
+	50% { opacity: 0.5;}
+	100% { opacity: 1;}
+}
+
+.about-section {
+	width:90%;
+	height:150px;
+	margin-left: 5%;
+	text-align: center;
+	color:#2C3E50;
+	position: relative;
+	animation-name: aboutmain;
+	-moz-animation-name:aboutmain;
+	-webkit-animation-name:aboutmain;
+	animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	-webkit-animation-duration: 4s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes aboutmain {
+	0% {height: 0px; opacity: 0;}
+	50% {height: 75px; opacity: 0.5;}
+	100% {height: 150px; opacity: 1;}
+}
+
+@-webkit-keyframes aboutmain {
+	0% {height: 0px; opacity: 0;}
+	50% {height: 75px; opacity: 0.5;}
+	100% {height: 150px; opacity: 1;}
+}
+
+.about-title {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.about-content {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+
+.downloads-section {
+	width:100%;
+	height:600px auto;
+	margin-top: 100px;
+}
+
+.downloads-banner-skew {
+	width:100%;
+	height:100px;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876); 
+	margin-top: 30px;
+    transform: skew(0deg , 5deg);
+    overflow: hidden;
+    position: relative;
+	animation-name: containerskew;
+	-moz-animation-name:containerskew;
+	-webkit-animation-name:containerskew;
+	animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.downloads-banner-main {
+	width:100%;
+	height: 600px auto;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876);  
+	margin-top: -45px;
+	position: relative;
+	overflow:hidden;
+	animation-name: containermain;
+	-moz-animation-name:containermain;
+	-webkit-animation-name:containermain;
+	animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.inner-grid-dwns-min {
+	width:200px;
+	height:500px;
+	position: absolute;
+	top:60px;
+	left:00px;
+	margin-left:100px ;
+}
+
+.inner-grid-dwns-min1 {
+	width:200px;
+	height:600px;
+	position: absolute;
+	top:60px;
+	left:00px;
+	margin-left:415px ;
+}
+
+.inner-grid-dwns-min2 {
+	width:200px;
+	height:500px;
+	position: absolute;
+	top:60px;
+	left:00px;
+	margin-left: 725px;
+}
+
+.downloads-image {
+	width:200px;
+	height:200px;
+	box-shadow: 1px 1px 1px 1px #000000;
+}
+
+.downloads-item1 {
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.ratings {
+	color:#fff;
+	margin-left: 45px;
+	text-align: center;
+}
+
+.btn-downloads-view {
+	width:75px;
+	height:37.5px;
+	border:none;
+	border-radius: 20px;
+	background-color: #37474f;
+	color:#fff;
+	text-align: center;
+	margin-left: 62.5px;
+	margin-top: 20px;
+}
+
+.btn-downloads-view:hover {
+	background-color:  #e91e63;
+	box-shadow: 2px #000; 
+}
+
+/*.downloads-banner-skew1 {
+	width:100%;
+	height:100px;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876); 
+	margin-top: 0px;
+    transform: skew(0deg , 5deg);
+    position: relative;
+	animation-name: containerskew;
+	-moz-animation-name:containerskew;
+	-webkit-animation-name:containerskew;
+	animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-duration: 5s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}*/
+
+.social-section {
+	width:100%;
+	height:350px;
+    color: #2C3E50;
+}
+
+.social-title {
+	padding-top: 35px;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 50px;
+
+}
+
+.social-group {
+	text-align: center;
+
+}
+
+.social-group span {
+	display: inline-block;
+	padding:50px;
+}
+
+.facebook-icon {
+	font-size: 70px;
+}
+
+
+.twitter-icon {
+	font-size: 70px;
+}
+
+.facebook-icon:hover {
+	color: #3b5998;
+}
+
+.twitter-icon:hover {
+	color: #38A1F3;
+}
+
+.first-3post {
+	width:100%;
+	height: 250px;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876);  
+	margin-top: -45px;
+	color: #fff;
+	position: relative;
+	overflow:hidden;
+	animation-name: firstthreepost;
+	-moz-animation-name:firstthreepost;
+	-webkit-animation-name:firstthreepost;
+	animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	text-align: center;
+}
+
+@keyframes firstthreepost {
+	0% {height:0px; opacity: 0;}
+	50% {height:125px; opacity: 0.5;}
+	100% {height: 250px; opacity: 1;}
+}
+
+@-webkit-keyframes firstthreepost {
+	0% {height:0px; opacity: 0;}
+	50% {height:125px; opacity: 0.5;}
+	100% {height: 250px; opacity: 1;}
+}
+
+.f3p-title {
+	letter-spacing: 2px;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-left: 5px;
+}
+
+.f3p-content {
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+.first-3post-title01, .first-3post-title02, .first-3post-title03 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.technologiesinsider-updates {
+	width:100%;
+	height:300px;
+	color: #2C3E50;
+	overflow: hidden;
+	text-align:center;
+}
+
+.not-yet-icon {
+	width: 100px;
+	height: 100px;
+}
+
+.update-Ti-title {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+	font-size: 35px;
+}
+
+.update-Ti-NA {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+.footer-container {
+	width:100%;
+	height: 75px;
+	color: #fff;
+	background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876);  
+}
+
+.content-footer-left {
+	float: left;
+	padding-left: 10px;
+	padding-top: 37px;
+}
+
+.content-footer-right {
+	float: right;
+	padding-right: 10px;
+	padding-top: 37px;
+}
